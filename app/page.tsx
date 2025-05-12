@@ -162,6 +162,7 @@ export default function Home() {
               <Button
                 variant="outline"
                 className="group border-white/30 hover:border-white hover:bg-white/5 transition-all rounded-full px-8 py-6 text-lg backdrop-blur-sm"
+                onClick={() => window.open('https://drive.google.com/file/d/10WZUn6FHHIYFyGdh1teJznCTF51njN2k/view?usp=sharing', '_blank')}
               >
                 <span className="relative overflow-hidden inline-block">
                   <span className="relative z-10">Read Whitepaper</span>
